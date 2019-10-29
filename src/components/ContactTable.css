@@ -1,0 +1,23 @@
+.ContactTable {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 30%;
+  }
+  
+  .ContactTable td, .ContactTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .ContactTable tr:nth-child(even){background-color: rgb(194, 227, 220);}
+  
+  .ContactTable tr:hover {background-color:rgb(223, 155, 78);}
+  
+  .ContactTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(189, 191, 74);
+    color: white;
+    text-align: center;
+  }

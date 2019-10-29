@@ -1,0 +1,104 @@
+
+html { 
+  background: url(http://www.up2me.co.il/images/22605201.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.calendar_bar{
+  color: rgb(1, 1, 1);
+  font-weight: bold;
+  block-size: 100px;
+
+}
+
+.titleAllDay{
+  float: right;
+
+
+  
+}
+.calendar_allDay{
+  float: right;
+}
+.AllallDay_caledar{
+  font-family:Arial;
+  font-size: 30px;
+  background: rgb(39, 156, 150);
+  border-radius: 30px;
+  block-size: 15px;
+  width: 30px;
+  padding: 50px;
+  margin: 20px;
+}
+
+
+.calendar_save{ 
+  background: rgb(39, 156, 150);
+  border-radius: 30px;
+  block-size: 50px;
+  text-align: center;
+  float: right;
+  width:200px;
+  font-weight: bold;
+
+}
+.calendar_save:hover{
+  background: rgb(194, 227, 220);
+
+}
+.calendar_startDate{
+  background: rgb(39, 156, 150);
+  border-radius: 30px;
+  block-size: 50px;
+  text-align: center;
+  float: right;
+  width:200px;
+  font-weight: bold;
+
+
+}
+.calendar_endDate{
+  background: rgb(39, 156, 150);
+  border-radius: 30px;
+  block-size: 50px;
+  text-align: center;
+  float: right;
+  width:200px;
+  font-weight: bold;
+
+
+}
+.calendar_title{
+  background-color: rgb(39, 156, 150);
+  border-radius: 30px;
+  block-size: 50px;
+  text-align: center;
+  float: right;
+  font-weight: bold;
+  -webkit-text-fill-color: black;
+  width:200px;
+
+
+}
+.calendar_title:hover{
+  background: rgb(194, 227, 220);
+
+}
+.calendar_startDate:hover{
+  background: rgb(194, 227, 220);
+}
+.calendar_endDate:hover{
+  background: rgb(194, 227, 220);
+}
+
+.calendar_big_title{
+  text-align: center;
+}
+.rbc-month-view {
+  direction: rtl;
+  background-color: rgba(255, 255, 255, 0.726);
+  
+  padding: 4%;
+}

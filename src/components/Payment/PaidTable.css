@@ -1,0 +1,77 @@
+.PaidTable {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    text-align: right;
+    width: 50%;
+  }
+  
+  .PaidTable td, .PaidTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .PaidTable tr:nth-child(even){background-color: rgba(253, 227, 235, 0.788);}
+  .PaidTable tr:nth-child(odd){background-color: rgba(235, 235, 245, 0.76);}
+  
+  .PaidTable tr:hover {background-color:rgb(241, 190, 205);}
+  
+  .PaidTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(174, 36, 76);
+    color: white;
+    text-align: center;
+  }
+
+  
+  .ContactTable {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    text-align: center;
+    width:90%;
+    margin: 5%;
+    
+  }
+  
+  .ContactTable td, .ContactTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .ContactTable tr:nth-child(even){background-color: rgba(253, 227, 235, 0.788);}
+  .ContactTable tr:nth-child(odd){background-color: rgba(235, 235, 245, 0.76);}
+  
+  .ContactTable tr:hover {background-color:rgb(241, 190, 205);}
+  
+  .ContactTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(174, 36, 76);
+    color: white;
+    text-align: center;
+  }
+
+  .bigTitle{
+    text-shadow: 3px 1px rgb(235, 235, 235);
+    text-align: center;
+  }
+
+  .inputStyleT{
+    height: 15px;
+    width: 200px;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(174, 36, 76);
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 1px rgb(121, 116, 116);
+    padding: 5px;
+    margin: 1%;
+  }

@@ -1,0 +1,64 @@
+.bigTitle{
+  text-shadow: 3px 1px rgb(235, 235, 235);
+}
+
+#paymentTable {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width:90%;
+    margin: 5%;
+  }
+  
+  #paymentTable td, .PaymentTable th {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 8px;
+  }
+  
+  #paymentTable tr:nth-child(even){background-color: rgba(253, 227, 235, 0.788);}
+  #paymentTable tr:nth-child(odd){background-color: rgba(235, 235, 245, 0.76);}
+  
+  #paymentTable tr:hover {background-color:rgb(241, 190, 205);}
+  
+  #paymentTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(174, 36, 76);
+    color: white;
+    text-align: center;
+  }
+
+  .buttonStylePay {
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color:  rgb(39, 156, 150);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 2px rgb(121, 116, 116);
+    margin: 1%;
+  }
+  .buttonStylePay:hover {background-color: rgb(194, 227, 220);}
+  
+  .buttonStylePay:active {
+    background-color: #d1ffd7;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+  .linkStylePay:hover{text-emphasis-color: rgb(241, 190, 205)}
+  .linkStylePay{
+    text-decoration: none;
+    color: white;
+    
+  }
+  .linkStylePay:visited{
+      background-color: #fff;
+  } 
+

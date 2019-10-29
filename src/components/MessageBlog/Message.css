@@ -1,0 +1,184 @@
+
+html { 
+  background: url(http://www.up2me.co.il/images/22605201.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.messages_h1{
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 43px;
+  text-shadow: 3px 1px, #666;
+}
+
+
+.messages_body{
+
+text-align: center;
+display: flex;
+font-family: Arial, Helvetica, sans-serif;
+flex-direction: column;
+align-items: center;
+min-height: 100vh;
+direction: ltr;
+height: 50%;
+
+}
+
+
+.messages_textarea{
+  width: 250px;
+  height: 100px;
+  text-align: right;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  color:rgb(0, 0, 0);
+  background-color: rgb(194, 227, 220);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 2px rgb(121, 116, 116);
+  direction: ltr;
+
+}
+
+.message_button_buuble{
+ align-items: center;
+ background:rgb(194, 227, 220);
+ position: relative;
+ -moz-border-radius: 10px;
+ -webkit-border-radius: 10px;
+ border-radius: 10px;
+ padding-left: 10px;
+ padding-right: 10px;
+ margin-bottom: 25px;
+ direction: ltr;
+ box-shadow: 0 2px rgb(121, 116, 116);
+
+}
+
+
+.message_button_buuble:before {
+content: "";
+position: absolute;
+right: 100%;
+top: 26px;
+width: 0;
+height: 0;
+border-top: 13px solid transparent;
+border-right: 26px solid  rgb(194, 227, 220);
+border-bottom: 13px solid transparent;
+}
+
+
+.messages_btn {
+  display: inline-block;
+  top: 10px;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  outline: none;
+  color: rgb(3, 3, 3);
+  background-color: rgb(39, 156, 150);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 7px rgb(121, 116, 116);
+}
+
+.messages_btn:hover {background-color: #979e97}
+  
+.messages_btn:active {
+  background-color: #d1ffd7;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.messages_btnDel {
+  display: inline-block;
+  top: 10px;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  outline: none;
+  color: rgb(5, 5, 5);
+  background-color: rgb(39, 156, 150);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px rgb(121, 116, 116);
+  margin: 7px;
+}
+
+#object{
+	visibility: hidden;
+}
+
+.slideLeft{
+	animation-name: slideLeft;
+	-webkit-animation-name: slideLeft;	
+
+	animation-duration: 2s;	
+	-webkit-animation-duration: 2s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;		
+
+	visibility: visible !important;	
+}
+
+@keyframes slideLeft {
+	0% {
+		transform: translateX(150%);
+	}
+	50%{
+		transform: translateX(-8%);
+	}
+	65%{
+		transform: translateX(4%);
+	}
+	80%{
+		transform: translateX(-4%);
+	}
+	95%{
+		transform: translateX(2%);
+	}			
+	100% {
+		transform: translateX(0%);
+	}
+}
+
+@-webkit-keyframes slideLeft {
+	0% {
+		-webkit-transform: translateX(150%);
+	}
+	50%{
+		-webkit-transform: translateX(-8%);
+	}
+	65%{
+		-webkit-transform: translateX(4%);
+	}
+	80%{
+		-webkit-transform: translateX(-4%);
+	}
+	95%{
+		-webkit-transform: translateX(2%);
+	}			
+	100% {
+		-webkit-transform: translateX(0%);
+	}
+}

@@ -1,0 +1,49 @@
+{
+  "name": "hoa",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fullcalendar/core": "^4.2.0",
+    "@fullcalendar/daygrid": "^4.2.0",
+    "@fullcalendar/react": "^4.2.0",
+    "@material-ui/core": "^4.1.3",
+    "@material-ui/icons": "^4.2.0",
+    "bootstrap": "^4.3.1",
+    "firebase": "^6.1.0",
+    "moment": "^2.24.0",
+    "react": "^16.8.6",
+    "react-big-calendar": "^0.21.0",
+    "react-bootstrap": "^1.0.0-beta.9",
+    "react-calendar": "^2.19.0",
+    "react-dom": "^16.8.6",
+    "react-format": "^1.2.0",
+    "react-native-table-component": "^1.2.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "react-table": "^6.10.0",
+    "react-toastify": "^5.3.1",
+    "react-toasts": "^3.0.3",
+    "xlsx": "^0.14.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
